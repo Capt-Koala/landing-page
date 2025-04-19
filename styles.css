@@ -1,0 +1,48 @@
+body {
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+header {
+    display: flex;
+    height: 32px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: auto;
+}
+
+.header {
+    display: flex;
+    padding: 15px;
+
+}
+
+.top-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 15px;
+}
+
+img {
+}
+
+a {
+
+}
+
+a:hover {
+}
+
+a:visited {
+}
+
+button {
+}
+
+footer {
+}
