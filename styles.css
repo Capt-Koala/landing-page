@@ -22,7 +22,13 @@ header {
     display: flex;
     padding-top: 15px;
     background-color: #1F2937;
-    padding-right: 11%;
+    padding-right: 13%;
+}
+
+.link-container {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
 }
 
 .top-links {
@@ -38,6 +44,18 @@ header {
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 30px;
+    padding-top: 30px;
+    color: #F9FAF8;
+}
+
+
+.panel1img {
+    background-color: rgb(148, 148, 148);
+    height: 240px;
+    width: 320px;
+    text-align: center;
+    line-height: 240px;
+    flex-grow: 1;
 }
 
 h1 {
@@ -54,7 +72,6 @@ h1 {
 
 .panel1-right {
     display: flex;
-    height: auto;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
@@ -65,6 +82,12 @@ h1 {
     flex-direction: column;
     padding-left: 10%;
     padding-right: 10%;
+    height: 350px;
+}
+
+.panel2img {
+    border-style: groove;
+    border-width: 75px;
 }
 
 h2 {
@@ -84,6 +107,7 @@ h2 {
 
 .portrait {
     display: flex;
+    flex-direction: column;
     width: 200px;
     height: 100px;
     text-align: center;
@@ -107,6 +131,8 @@ h2 {
     align-items: flex-end;
     margin-left: auto;
     font-style: normal;
+    font-weight: 900;
+    padding-right: 5%;
 }
 
 .panel4 {
@@ -116,11 +142,16 @@ h2 {
     padding-bottom: 50px;
 }
 
-.sign-up-box {
+.sign-up-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #3882F6;
     margin-left: 10%;
+    color: #F9FAF8;
+    padding-left: 50px;
+    border-radius: 10px;
+    height: 100px;
+    width: 75vw;
 }
 
 .sign-up-button {
@@ -131,11 +162,15 @@ h2 {
     flex-grow: 1;
     /* makes flex item grow to fill all available space */
     background-color: #3882F6;
-    margin-right: 10%;
+    border-radius: 10px;
 }
 
-img {
-
+.bottom-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #E5E7EB;
+    font-weight: 600;
 }
 
 a {
@@ -143,17 +178,17 @@ a {
     color: #E5E7EB;
 }
 
-a:hover {
-}
-
-a:visited {
-}
-
 button {
     width: 80px;
     height: 30px;
+    font-weight: 600;
     /* ask austin about that pretty button of his */
     background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 10px;
+    border-color: #3882F6;
+    /* padding: .5em; */
+    border-style: solid;
 }
 
 footer {
@@ -164,4 +199,5 @@ footer {
     text-align: center;
     justify-content: center;
     background-color: #1F2937;
+    color: #E5E7EB;
 }
