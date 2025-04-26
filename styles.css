@@ -22,7 +22,7 @@ header {
     display: flex;
     padding-top: 15px;
     background-color: #1F2937;
-    padding-right: 13%;
+    padding-right: 11%;
 }
 
 .link-container {
@@ -55,7 +55,7 @@ header {
     width: 320px;
     text-align: center;
     line-height: 240px;
-    flex-grow: 1;
+    flex-grow: 0.6;
 }
 
 h1 {
